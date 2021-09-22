@@ -4,21 +4,14 @@ import { useWeb3React } from '@web3-react/core'
 import { allLanguages } from 'constants/localisation/languageCodes'
 import { LanguageContext } from 'hooks/LanguageContext'
 import useTheme from 'hooks/useTheme'
-import useGetPriceData from 'hooks/useGetPriceData'
-import useGetLocalProfile from 'hooks/useGetLocalProfile'
 import useAuth from 'hooks/useAuth'
 import links from './config'
-import { CAKE } from '../../constants'
 
 const Menu: React.FC = (props) => {
   const { account } = useWeb3React()
   const { login, logout } = useAuth()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
-  const priceData = useGetPriceData()
-  const cakePriceUsd = 20
-  
-  const profile = useGetLocalProfile()
 
   return (
     <UikitMenu
@@ -31,8 +24,6 @@ const Menu: React.FC = (props) => {
       currentLang={selectedLanguage?.code || ''}
       langs={allLanguages}
       setLang={setSelectedLanguage}
-      cakePriceUsd={cakePriceUsd}
-      profile={profile}
       {...props}
     />
   )
