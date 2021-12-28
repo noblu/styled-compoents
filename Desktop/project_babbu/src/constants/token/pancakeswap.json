@@ -1,0 +1,73 @@
+{
+  "name": "PancakeSwap Default List",
+  "timestamp": "2021-03-17T09:56:23Z",
+  "version": {
+    "major": 2,
+    "minor": 10,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    
+    {
+      "name": "BELLY Token",
+      "symbol": "BELLY",
+      "address": "0xB67754f5b4C704A24d2db68e661b2875a4dDD197",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "../../../public/images/coins/0xB67754f5b4C704A24d2db68e661b2875a4dDD197.png"
+    },
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "../../../public/images/coins/0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "../../../public/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+    },
+    {
+      "name": "USDT Token",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059ff775485246999027b3197955",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "../../../public/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
+    },
+    {
+      "name": "ETH Token",
+      "symbol": "ETH",
+      "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "../../../public/images/coins/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+    },
+    {
+      "name": "DAI Token",
+      "symbol": "DAI",
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "../../../public/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
+    },
+    {
+      "name": "CAKE Token",
+      "symbol": "CAKE",
+      "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "../../../public/images/coins/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
+    }
+    
+    
+  ]
+}
