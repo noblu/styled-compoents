@@ -1,0 +1,77 @@
+/* The Modal (background) */
+.modal-babbu-family-nft {
+    font-family: Sen;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content-babbu-family-nft {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 35%; /* Could be more or less, depending on screen size */
+    /* height: 50%; */
+  }
+
+  .gray-div {
+    background: #f7f6f3;
+    border-radius: 10px;
+  }
+
+  /* .pack {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #47131A;
+    background: #f7f6f3;
+    font-weight: 400;
+  } */
+
+  .buy-babbu:hover {
+    color: #0fd545;
+  }
+
+  /* .pack-active {
+    height: 34px;
+    background: #FFE000;
+    border-radius: 8px;
+    font-weight: bold;
+  } */
+
+  .approve-babbu {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    background: #FFE000;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  
+  /* The Close Button */
+  .close-button {
+    background-color: #98795c;
+    color: white;
+    width: 20px;
+    height: 20px;
+    float: right;
+    font-size: 25px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

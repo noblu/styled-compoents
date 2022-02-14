@@ -1,0 +1,78 @@
+.gameForYou .thumb {
+	border-radius: 18px;
+}
+.gameForYou .item {
+	background: #f7f7f7;
+	border-radius: 18px;
+}
+.gameForYou .thumbWrap {
+	position: relative;
+}
+.gameForYou .thumbWrap .inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding: 25px;
+}
+.gameForYou .thumbWrap .title {
+	text-transform: uppercase;
+	color: #583a1e;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.gameForYou .thumbWrap .title img {
+	position: relative;
+	top: -2px;
+}
+.gameForYou .thumbWrap .price {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.gameForYou .thumbWrap .price img {
+	width: 40px;
+}
+.gameForYou .thumbWrap .time .badge {
+	font-size: 14px;
+	border-radius: 12px;
+	padding: 12px 20px;
+	background: #47131a;
+	color: #fffad9;
+}
+.gameForYou .bottom {
+	padding: 15px 20px;
+}
+.gameForYou .bottom .social a:not(:last-child) {
+	margin-right: 5px;
+}
+.gameForYou .bottom .social a {
+	opacity: 0.3;
+}
+.gameForYou .bottom .social a:hover {
+	opacity: 1;
+}
+.gameForYou .bottom .social img {
+	width: 28px;
+}
+section .sectionSubHeading {
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+section .sectionSubHeading .more {
+	display: inline-block;
+	border: 1px solid #98795c;
+	color: #98795c;
+	padding: 5px 15px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+	white-space: nowrap;
+}
+
+.rounded {
+	border-radius: 30px !important;
+}

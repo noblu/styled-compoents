@@ -1,0 +1,9 @@
+#aboutPage section.stats {
+	background: #FFED69;
+	padding: 25px 15px;
+	text-align: center;
+}
+#aboutPage .stats .number {
+	font-weight: 700;
+	font-size: 24px;
+}

@@ -1,0 +1,130 @@
+section .sectionSubHeading {
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+section .sectionSubHeading .more {
+	display: inline-block;
+	border: 1px solid #98795c;
+	color: #98795c;
+	padding: 5px 15px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+	white-space: nowrap;
+}
+
+.listNft {
+	margin: -12px 0;
+}
+.listNft .item {
+	background: #f7f7f7;
+	border-radius: 16px;
+	margin: 12px 0;
+}
+.listNft .item .top {
+	position: relative;
+	text-align: center;
+	padding: 50px 15px 15px;
+	border-radius: 16px 16px 0 0;
+}
+.listNft .item .top .percent {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+.listNft .item.end .top .percent {
+	background: #2d1b0e;
+	color: #fff;
+}
+.listNft .item .title {
+	margin: 0;
+	font-size: 13px;
+	margin-top: 20px;
+}
+.listNft .item .bottom {
+	padding: 15px;
+}
+
+.badge.bg-pink.arrow:before {
+	border-right-color: #fc346d;
+}
+.badge.bg-yellow {
+	background: #ffe000;
+}
+.badge.bg-yellow.arrow:before {
+	border-right-color: #ffe000;
+}
+.badge.bg-grey.arrow:before {
+	border-right-color: #ebe8e2;
+}
+/* Background solid color */
+.bg-grey {
+	background: #ebe8e2;
+}
+.bg-pink {
+	background: #fc346d;
+}
+.bg-soft-pink {
+	background: #fae1e0;
+}
+.bg-green {
+	background: #0fd545;
+}
+.bg-yellow {
+	color: #47131a;
+	background: #ffe000;
+}
+.bg-soft-yellow {
+	background: #fffad9;
+}
+.bg-natural {
+	background: #fdf1cc;
+}
+.bg-brown {
+	background: #47131a;
+}
+.bg-dark-brown {
+	color: #fff;
+	background: #2d1b0e;
+}
+.bg-grey {
+	background: #f3eddf;
+}
+.bg-mint {
+	background: #e8fbea;
+}
+.bg-soft-green {
+	background: #f0f8db;
+}
+.bg-purple {
+	background: #eae9fd;
+}
+.bg-purple-1 {
+	background: #fcedfe;
+}
+.bg-soft-blue {
+	background: #edf8fe;
+}
+/* Background gradient */
+.bg-blue-grad {
+	background: linear-gradient(225deg, #0fd545 37.97%, #018e27 100%);
+}
+.bg-yellow-grad {
+	color: #2d1b0e;
+	background: linear-gradient(90deg, #ffaa00 0%, #ffd702 100%);
+}
+/* Text color */
+.text-yellow {
+	color: #f6b200;
+}
+.text-brown {
+	color: #583a1e;
+}
+.text-soft-brown {
+	color: #cab6a4;
+}
+.text-green {
+	color: #0fd545;
+}

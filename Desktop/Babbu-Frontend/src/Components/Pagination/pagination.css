@@ -1,0 +1,31 @@
+.pagination {
+	margin-top: 50px;
+}
+.pagination .next img {
+	transform: scaleX(-1);
+}
+.pagination .page-item .page-link {
+	border-radius: 30px;
+	border: none;
+	color: #47131A;
+	font-size: 16px;
+	line-height: 1;
+	padding: 6px 10px;
+}
+.pagination .page-item.active .page-link,
+.pagination .page-item.active:hover .page-link {
+	background: #47131A;
+	color: #fff;
+}
+.pagination .page-item:hover .page-link,
+.pagination .page-link:focus {
+	background: none;
+	box-shadow: none;
+}
+
+.page-item .page-link:hover{
+	cursor: pointer;
+}
+.page-item.disabled .page-link{
+	pointer-events: none;
+}

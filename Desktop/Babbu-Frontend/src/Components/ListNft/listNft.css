@@ -1,0 +1,7 @@
+.item__image {
+  min-width:110px;
+  min-height:104px;
+ width: auto;
+  height: auto;
+  object-fit: cover
+}

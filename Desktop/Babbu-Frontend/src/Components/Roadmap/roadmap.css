@@ -1,0 +1,22 @@
+#aboutPage .roadmap .sectionHeading {
+	margin-bottom: 45px;
+}
+#aboutPage .roadmap .left {
+	margin-right: 15px;
+}
+#aboutPage .roadmap .right {
+	margin-left: 15px;
+}
+#aboutPage .roadmap ul li {
+	background: #FAD551;
+	border-radius: 16px;
+	margin: 5px 0;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+}
+#aboutPage .roadmap ul li.active {
+	font-weight: 700;
+	background: #47131A;
+	color: #fff;
+}

@@ -1,0 +1,132 @@
+#aboutPage section {
+	padding: 45px 30px;
+	background: #FFE000;
+}
+#aboutPage section:nth-child(odd) {
+	background: #F7F7F7;
+}
+#aboutPage .sectionHeading {
+	font-size: 32px;
+	color: #060C3C;
+	margin: 0;
+}
+#aboutPage .sectionSubHeading {
+	font-size: 22px;
+	color: #98795C;
+}
+#aboutPage section.banner {
+	height: auto;
+	border-radius: 0;
+	padding-right: 380px;
+	background: #FFE000 url(./img/bg-banner.png) no-repeat bottom right / 630px;
+}
+#aboutPage .banner .textGroup-1 {
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+#aboutPage .banner .textGroup-2 {
+	font-size: 52px;
+}
+#aboutPage .banner .textGroup-2 .text-5 {
+	font-size: 72px;
+}
+#aboutPage .banner p {
+	margin-bottom: 50px;
+}
+#aboutPage .banner .btn {
+	padding: 6px 35px;
+	border: 1px solid #47131A;
+}
+#aboutPage .banner .launch {
+	color: #47131A;
+	font-weight: 400;
+	margin: 0 15px 0 10px;
+}
+#aboutPage .banner .social a {
+	margin-left: 6px;
+}
+#aboutPage .banner .social a img {
+	width: 26px;
+}
+#aboutPage section.stats {
+	background: #FFED69;
+	padding: 25px 15px;
+	text-align: center;
+}
+#aboutPage .stats .number {
+	font-weight: 700;
+	font-size: 24px;
+}
+#aboutPage .metaverse {
+	color: #5D6180;
+}
+#aboutPage .metaverse .title {
+	color: #060C3C;
+}
+#aboutPage .tokenomic .total {
+	display: inline-block;
+	background: #F6B200;
+	border-radius: 16px;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 10px 30px;
+	margin-top: 30px;
+}
+#aboutPage .tokenomic img {
+	position: relative;
+	top: 30px;
+}
+#aboutPage .galaxy .item {
+	margin-top: 30px;
+}
+#aboutPage .galaxy .item .title {
+	margin: 15px 0;
+	color: #2D1B0E;
+}
+#aboutPage .roadmap .sectionHeading {
+	margin-bottom: 45px;
+}
+#aboutPage .roadmap .left {
+	margin-right: 15px;
+}
+#aboutPage .roadmap .right {
+	margin-left: 15px;
+}
+#aboutPage .roadmap ul li {
+	background: #FAD551;
+	border-radius: 16px;
+	margin: 5px 0;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+}
+#aboutPage .roadmap ul li.active {
+	font-weight: 700;
+	background: #47131A;
+	color: #fff;
+}
+#aboutPage .faq .sectionHeading {
+	font-size: 44px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#aboutPage .howToBuy .sectionHeading {
+	margin-bottom: 45px;
+}
+#aboutPage section.footer {
+	background: #fff;
+	border-left: 1px solid #fff;
+	margin-left: -1px;
+	font-size: 18px;
+	text-align: center;
+	color: #98795C;
+}
+#aboutPage .footer .social {
+	margin-bottom: 20px;
+}
+#aboutPage .footer .social a {
+	margin: 0 8px;
+}
+#aboutPage .footer .social a img {
+	width: 30px;
+}

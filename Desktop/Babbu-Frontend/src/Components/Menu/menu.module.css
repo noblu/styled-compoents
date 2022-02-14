@@ -1,0 +1,60 @@
+aside {
+	flex: 3;
+	font-weight: 700;
+	color: #000;
+	width: 250px;
+	padding: 20px 20px 20px 0;
+	background: #fff;
+}
+aside a {
+	display: block;
+	padding: 10px 20px;
+	color: #000;
+	border-radius: 8px;
+	position: relative;
+}
+aside .iAmBabu {
+	text-align: right;
+	margin-top: 30px;
+}
+#mainmenu li a .icon {
+	margin-right: 10px;
+	width: 25px;
+}
+#mainmenu li a .icon,
+#mainmenu li a .text {
+	display: inline-block;
+	vertical-align: middle;
+}
+#mainmenu li a:hover {
+	color: #f6b200;
+}
+#mainmenu li a.active {
+	background: #fff5b0;
+}
+#mainmenu li.parentMenu > a:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 8px solid #583a1e;
+}
+#mainmenu li.parentMenu .subMenu {
+	background: #fffad9;
+	margin-right: -20px;
+}
+#mainmenu li.parentMenu .subMenu a {
+	font-weight: 400;
+	padding: 5px 10px 5px 55px;
+}
+/*========================== CONTENT ==========================*/
+/* #mainContent {
+	padding: 20px 0 20px 20px;
+	height: 100%;
+	border-left: 1px solid #ebe8e2;
+} */

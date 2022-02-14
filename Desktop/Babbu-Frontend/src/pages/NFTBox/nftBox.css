@@ -1,0 +1,30 @@
+#mainContent {
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid #ebe8e2;
+  position: relative;
+ }
+#gameness {
+  padding: 20px 0px 10px 0px;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  
+   
+}
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(8px);
+  display: none;
+  opacity: 0;
+  z-index: 1;
+}
+

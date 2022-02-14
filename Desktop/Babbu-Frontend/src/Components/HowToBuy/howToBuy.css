@@ -1,0 +1,12 @@
+#aboutPage .howToBuy .sectionHeading {
+  margin-bottom: 45px;
+}
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+.up {
+  transform: rotate(180deg);
+}

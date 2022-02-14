@@ -1,0 +1,76 @@
+/* NFT MINT */
+.nft-mint {
+  background-color: #F7F7F7;
+  border-radius: 16px;
+  height: 590px;
+}
+
+.babbu-angel-pink-background {
+  width: 362px;
+  height: 362px;
+  background: url('./img/Babbu-Monster-Background.png');
+  border-radius: 12px;
+}
+
+.mint-quota {
+width: 100%;
+height: 48px;
+background: #FFE000;
+border-radius: 12px;
+font-weight: 700;
+font-size: 16px;
+cursor: pointer;
+}
+/* NFT MINT */
+
+/* MINTING DETAILS */
+#minting-details {
+  width: 100%;
+}
+
+#minting-details img {
+  width: 5%;
+}
+
+#minting-details thead tr {
+  background: #F3EDDF;
+  height: 39px;
+}
+
+#minting-details thead tr th {
+  height: 100%;
+  color: black;
+}
+
+#minting-details td {
+  padding: 15px 0px;
+}
+
+#minting-details th:first-child {
+  padding-left: 0.65rem;
+}
+
+#minting-details td:first-child {
+  padding-left: 0.65rem;
+  border-bottom: 1px solid #F7F7F7;
+}
+
+#minting-details td:first-child span {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+#minting-details td:first-child span:hover {
+  text-decoration-line: underline;
+}
+
+#minting-details td:nth-child(n+2), #minting-details th:nth-child(n+2) {
+  text-align: center;
+}
+
+#minting-details td:nth-child(n+2){
+  font-weight: bold;
+  font-size: 16px;
+  color: #47131A;
+}
+/* MINTING DETAILS */

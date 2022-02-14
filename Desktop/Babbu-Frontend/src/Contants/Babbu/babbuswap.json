@@ -1,0 +1,48 @@
+{
+    "name": "BabbuSwap List",
+    "timestamp": "2021-03-17T09:56:23Z",
+    "version": {
+      "major": 2,
+      "minor": 10,
+      "patch": 0
+    },
+    "tags": {},
+    "logoURI": "https://3000",
+    "keywords": ["babbu", "default"],
+    "tokens": [
+      {
+        "name": "Babbu Family",
+        "colorp": "#98795C",
+        "title": "Provide gaming developers a series of gaming pre-launch supports, such as selling unique in-game assets in the form of NFT, Farms, NFT auction and trading marketplace, etc..",
+        "colorh1":"#47131A",
+        "titleLink":"VISIT HOME",
+        "logoURI": "../../assets/img/icon-babbu-family.png"
+      },
+      {
+        "name": "Bounty",
+        "colorp": "#98795C",
+        "title": "Receive BABBU Bounty tasks, grow the BABBU family, and earn more $BABU!",
+        "colorh1": "#47131A",
+        "titleLink": "GET LINK",
+        "logoURI": "../../assets/img/icon-bounty.svg"
+      },
+      {
+        "name": "NFT Mine",
+        "colorp": "#98795c",
+        "title": "BABBU NFT Pool and “Stake-to-Earn” All NFTs issued by BABBU have the attribute of “HashRate”. The higher the HashRate, the faster the mining speed of the BABBU.",
+        "colorh1": "#2D1B0E",
+        "titleLink": "CONNECT WALLET",
+        "logoURI": "../../assets/img/icon-babbu-farmer.png"
+      },
+      {
+        "name": "Galaxy",
+        "colorp": "#98795c",
+        "title": "The Galaxy Hole owned over 50% of supply at launch. The Black Hole counts as one of the wallet holders that 4% of transactions are distributed",
+        "colorh1": "#2D1B0E",
+        "titleLink": "Explorer",
+        "logoURI": "../../assets/img/icon-babbu-airdrop.png"
+      }
+     
+    ]
+  }
+  

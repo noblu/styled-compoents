@@ -1,0 +1,13 @@
+#aboutPage .tokenomic .total {
+	display: inline-block;
+	background: #F6B200;
+	border-radius: 16px;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 10px 30px;
+	margin-top: 30px;
+}
+#aboutPage .tokenomic img {
+	position: relative;
+	top: 30px;
+}

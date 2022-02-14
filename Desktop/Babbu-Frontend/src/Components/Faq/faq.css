@@ -1,0 +1,57 @@
+#aboutPage .faq .sectionHeading {
+	font-size: 44px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.accordion.style-1 .accordion-item {
+	background: none;
+	border-color: #EBE8E2;
+}
+.accordion.style-1 .accordion-item:last-child {
+	border-bottom: 1px solid #EBE8E2;
+}
+.accordion.style-1 .accordion-button {
+	padding: 0;
+	font-weight: 700;
+	font-size: 18px;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.accordion.style-1 .accordion-button:not(.collapsed) {
+	color: #2D1B0E;
+}
+.accordion.style-1 .accordion-button::after {
+	background: none;
+}
+.accordion.style-2 .accordion-button {
+	padding: 0;
+	font-size: 22px;
+	font-weight: 700;
+	color: #47131A;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.accordion.style-2 .accordion-button img {
+	margin-right: 25px;
+}
+.accordion.style-2 .accordion-item {
+	background: #FFED69;
+	box-shadow: 0px 8px 40px -2px rgba(6, 12, 59, 0.08);
+	border-radius: 16px;
+	padding: 25px 35px;
+}
+.accordion.style-2 .accordion-item:not(:last-child) {
+	margin-bottom: 15px;
+}
+.accordion.style-2 .accordion-item.active {
+	background: #fff;
+}
+.accordion.style-2 .accordion-body {
+	padding: 5px 0 0 65px;
+	font-size: 18px;
+}
+#accordionFaq .accordion-item{
+	padding: 25px 0;
+}

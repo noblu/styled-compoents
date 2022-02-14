@@ -1,0 +1,54 @@
+/* The Modal (background) */
+.modal-open-box {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content-open-box {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 35%; /* Could be more or less, depending on screen size */
+    /* height: 50%; */
+  }
+
+  .save-your-wallet {
+    font-family: Sen;
+    color: #47131a;
+    background-color: #ffe000;
+    width: 30rem;
+    height: 2.5rem;
+    border-radius: 10px;
+  }
+
+  .hello-babbu {
+    font-family: Sen;
+    font-weight: 700;
+    color: #47131a;
+  }
+  
+  /* The Close Button */
+  .close-button {
+    background-color: #98795c;
+    color: white;
+    float: right;
+    font-size: 28px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

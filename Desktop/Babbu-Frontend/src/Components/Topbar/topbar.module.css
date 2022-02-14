@@ -1,0 +1,88 @@
+header,
+header a {
+	color: #47131a;
+	font-weight: 700;
+}
+header {
+	background: #fff;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ebe8e2;
+}
+.logo {
+	display: block;
+	width: 250px;
+}
+.logo span {
+	background: #0fd549;
+	color: #fff;
+	font-weight: 700;
+	display: inline-block;
+	line-height: 1;
+	padding: 4px 8px;
+	border-radius: 30px;
+}
+.headerMenu {
+	font-size: 16px;
+}
+.headerMenu li + li {
+	margin-left: 20px;
+}
+.headerMenu li a:hover {
+	color: #f6b200;
+}
+.connectWallet {
+	margin-right: 15px;
+}
+.language .dropdown-toggle::after {
+	display: none;
+}
+
+.badge {
+	position: relative;
+	color: #47131a;
+	text-align: center;
+}
+.badge.sm {
+	font-size: 12px;
+}
+.badge.md {
+	font-size: 14px;
+}
+.badge.arrow {
+	margin-left: 10px;
+}
+.badge.arrow:before {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: -6px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-top: 4px solid transparent;
+	border-right: 6px solid;
+	border-bottom: 4px solid transparent;
+}
+.badge.bg-pink.arrow:before {
+	border-right-color: #fc346d;
+}
+.badge.bg-yellow {
+	background: #ffe000;
+}
+.badge.bg-yellow.arrow:before {
+	border-right-color: #ffe000;
+}
+.badge.bg-grey.arrow:before {
+	border-right-color: #ebe8e2;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 12px;
+	border: none;
+	padding: 6px 18px;
+	color: #fff;
+}
+.bg-yellow {
+	color: #47131a;
+	background: #ffe000;
+}

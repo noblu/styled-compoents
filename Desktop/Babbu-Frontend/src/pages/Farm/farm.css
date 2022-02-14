@@ -1,0 +1,307 @@
+.farm .banner {
+height: 151px;
+background: linear-gradient(90deg, #FFE000 0%, #FFE000 41.28%, rgba(255, 224, 0, 0.8) 100%);
+background-image: url("./img/YellowBackGround.svg");
+margin-left: 21px;
+margin-bottom: 35px;
+border-radius: 16px;
+}
+
+.farm .aligning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.farm .col-4:first-child {
+  border-right: 1px solid #F6B200;
+}
+
+/* .farm .picnicCat {
+  position: absolute;
+  top: 0;
+  right: 020;
+  width: 322px;
+  height: 151px;
+} */
+
+.farm .money {
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+}
+
+.farm .total {
+font-size: 16px;
+line-height: 19px;
+}
+
+.gamebase {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  object-fit: cover;
+}
+
+.logobanner {
+  position: absolute;
+  bottom: -10px;
+  right: 30px;
+  object-fit: cover;
+}
+
+.nft {
+  position: absolute;
+  object-fit: cover;
+  top: 26px;
+  right: 41px;
+}
+#mainContent {
+  width: 100%;
+  padding: 20px 0px 20px 20px;
+  height: 100%;
+  border-left: 1px solid #ebe8e2;
+  position: relative;
+}
+#gameness {
+  padding: 10px 0px 10px 0px;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(8px);
+  display: none;
+  opacity: 0;
+  z-index: 1;
+}
+.blind-box {
+  width: 100%;
+  height: 20px;
+}
+p {
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+.banner-title {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #47131a;
+}
+.banner-money {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #47131a;
+}
+
+.tutorial {
+  color: #0fd545;
+}
+.wrapper {
+  flex: 1;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.wrapper-top-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-top-money {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.015em;
+}
+.wrapper-pool {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #98795c;
+}
+/* .wrapper-babbu {
+  display: flex;
+} */
+.Wrapper-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.babbu-busd {
+  flex-direction: column;
+}
+.babbu-busd-button {
+  display: flex;
+}
+.babbu-bnb {
+  display: flex;
+  padding: 0 31px 0 19px;
+}
+.babbu-busd {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.stone-boost {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  margin: 0 5px;
+}
+.babbu-farm-left {
+  display: flex;
+  flex-direction: column;
+}
+.babbu-farm-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.babbu-farm-main {
+  display: flex;
+  justify-content: space-around;
+}
+.babbu-money {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #0fd545;
+}
+.babbu-title {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #47131a;
+}
+.babbu-farm-title {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+.harvest {
+  background: #ffd702;
+  border-radius: 12px;
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #47131a;
+}
+.babbu-farm-bottom-right {
+  display: flex;
+  flex-direction: column;
+}
+.babbu-farm-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-pool-money {
+  padding-left: -20px;
+}
+.babbu-farm-bottom-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .farmbanner {
+    display: none;
+  }
+  .banner-money {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .banner-title {
+    margin-top: -5px;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .wrapper {
+    margin-right: 0;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f7f7f7;
+    border-radius: 16px;
+    margin-left: 10px;
+    padding-top: 20px;
+  }
+  .wrapper-top-money {
+    font-size: 36px;
+  }
+  .Wrapper-main {
+    width: 362px;
+  }
+}
+
+/****/
+/* @media screen and (min-width: 800px) {
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.5rem;
+} */
+/* h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  } */

@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+body {
+	font-family: 'Sen', sans-serif;
+	font-size: 14px;
+	color: #2d1b0e;
+	background: #fff;
+}
+img {
+	max-width: 100%;
+}
+a {
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+}
+h1,
+.h1 {
+	font-size: 52px;
+}
+h2,
+.h2 {
+	font-size: 44px;
+}
+h3,
+.h3 {
+	font-size: 32px;
+}
+h4,
+.h4 {
+	font-size: 30px;
+}
+h5,
+.h5 {
+	font-size: 26px;
+}
+h6,
+.h6 {
+	font-size: 22px;
+}
+section {
+	padding: 20px 0;
+}
+section .sectionHeading {
+	font-size: 28px;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+/* section .sectionSubHeading {
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+section .sectionSubHeading .more {
+	display: inline-block;
+	border: 1px solid #98795c;
+	color: #98795c;
+	padding: 5px 15px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+	white-space: nowrap;
+} */
+.btn {
+	font-weight: 700;
+	border-radius: 12px;
+	border: none;
+	padding: 6px 18px;
+	color: #fff;
+}
+.rounded {
+	border-radius: 30px !important;
+}
+.rounded-16 {
+	border-radius: 16px;
+}
+.backdrop {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(255, 255, 255, 0);
+	backdrop-filter: blur(8px);
+	display: none;
+	opacity: 0;
+	z-index: 1;
+}
+/* menu open in mobile */
+.menuOpen {
+	overflow: hidden;
+}
+.menuOpen .backdrop {
+	display: block;
+	opacity: 1;
+}
+.menuOpen .menuToggle img {
+	transform: scaleX(-1);
+}
+.menuOpen aside {
+	left: 0;
+}
+/* Badge */
+.badge {
+	position: relative;
+	color: #47131a;
+	text-align: center;
+}
+.badge.sm {
+	font-size: 12px;
+}
+.badge.md {
+	font-size: 14px;
+}
+.badge.arrow {
+	margin-left: 10px;
+}
+.badge.arrow:before {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: -6px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-top: 4px solid transparent;
+	border-right: 6px solid;
+	border-bottom: 4px solid transparent;
+}
+.badge.bg-pink.arrow:before {
+	border-right-color: #fc346d;
+}
+.badge.bg-yellow {
+	background: #ffe000;
+}
+.badge.bg-yellow.arrow:before {
+	border-right-color: #ffe000;
+}
+.badge.bg-grey.arrow:before {
+	border-right-color: #ebe8e2;
+}
+/* Background solid color */
+.bg-grey {
+	background: #ebe8e2;
+}
+.bg-pink {
+	background: #fc346d;
+}
+.bg-soft-pink {
+	background: #fae1e0;
+}
+.bg-green {
+	background: #0fd545;
+}
+.bg-yellow {
+	color: #47131a;
+	background: #ffe000;
+}
+.bg-soft-yellow {
+	background: #fffad9;
+}
+.bg-natural {
+	background: #fdf1cc;
+}
+.bg-brown {
+	background: #47131a;
+}
+.bg-dark-brown {
+	color: #fff;
+	background: #2d1b0e;
+}
+.bg-grey {
+	background: #f3eddf;
+}
+.bg-mint {
+	background: #e8fbea;
+}
+.bg-soft-green {
+	background: #f0f8db;
+}
+.bg-purple {
+	background: #eae9fd;
+}
+.bg-purple-1 {
+	background: #fcedfe;
+}
+.bg-soft-blue {
+	background: #edf8fe;
+}
+/* Background gradient */
+.bg-blue-grad {
+	background: linear-gradient(225deg, #0fd545 37.97%, #018e27 100%);
+}
+.bg-yellow-grad {
+	color: #2d1b0e;
+	background: linear-gradient(90deg, #ffaa00 0%, #ffd702 100%);
+}
+/* Text color */
+.text-yellow {
+	color: #f6b200;
+}
+.text-brown {
+	color: #583a1e;
+}
+.text-soft-brown {
+	color: #cab6a4;
+}
+.text-green {
+	color: #0fd545;
+}
+/*========================== LIST NFT ==========================*/
+.listNft {
+	margin: -12px 0;
+}
+.listNft .item {
+	background: #f7f7f7;
+	border-radius: 16px;
+	margin: 12px 0;
+}
+.listNft .item .top {
+	position: relative;
+	text-align: center;
+	padding: 50px 15px 15px;
+	border-radius: 16px 16px 0 0;
+}
+.listNft .item .top .percent {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+.listNft .item.end .top .percent {
+	background: #2d1b0e;
+	color: #fff;
+}
+.listNft .item .title {
+	margin: 0;
+	font-size: 13px;
+	margin-top: 20px;
+}
+.listNft .item .bottom {
+	padding: 15px;
+}
+/*========================== HEADER ==========================*/
+header,
+header a {
+	color: #47131a;
+	font-weight: 700;
+}
+header {
+	background: #fff;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ebe8e2;
+}
+header .logo {
+	display: block;
+	width: 250px;
+}
+header .logo span {
+	background: #0fd549;
+	color: #fff;
+	font-weight: 700;
+	display: inline-block;
+	line-height: 1;
+	padding: 4px 8px;
+	border-radius: 30px;
+}
+header .headerMenu {
+	font-size: 16px;
+}
+header .headerMenu li + li {
+	margin-left: 20px;
+}
+header .headerMenu li a:hover {
+	color: #f6b200;
+}
+header .connectWallet {
+	margin-right: 15px;
+}
+header .language .dropdown-toggle::after {
+	display: none;
+}
+/*========================== SIDE MENU ==========================*/
+aside {
+	font-weight: 700;
+	color: #000;
+	width: 250px;
+	padding: 20px 20px 20px 0;
+	background: #fff;
+}
+aside a {
+	display: block;
+	padding: 10px 20px;
+	color: #000;
+	border-radius: 8px;
+	position: relative;
+}
+aside .iAmBabu {
+	text-align: right;
+	margin-top: 30px;
+}
+#mainmenu li a .icon {
+	margin-right: 10px;
+	width: 25px;
+}
+#mainmenu li a .icon,
+#mainmenu li a .text {
+	display: inline-block;
+	vertical-align: middle;
+}
+#mainmenu li a:hover {
+	color: #f6b200;
+}
+#mainmenu li a.active {
+	background: #fff5b0;
+}
+#mainmenu li.parentMenu > a:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 8px solid #583a1e;
+}
+#mainmenu li.parentMenu .subMenu {
+	background: #fffad9;
+	margin-right: -20px;
+}
+#mainmenu li.parentMenu .subMenu a {
+	font-weight: 400;
+	padding: 5px 10px 5px 55px;
+}
+/*========================== CONTENT ==========================*/
+#mainContent {
+	padding: 20px 0 20px 20px;
+	height: 100%;
+	border-left: 1px solid #ebe8e2;
+}
+/*========================== HOMEPAGE ==========================*/
+#homepage .banner {
+	background: #ffd527;
+	border-radius: 10px;
+	height: 230px;
+}
+#homepage .overview {
+	max-width: 1025px;
+}
+#homepage .overview .item {
+	background: #f7f7f7;
+	border-radius: 16px;
+	padding: 15px;
+	text-align: center;
+	width: 250px;
+}
+#homepage .overview .item .title {
+	font-size: 22px;
+	color: #47131a;
+	margin: 10px 0;
+}
+#homepage .overview .item .desc {
+	font-size: 12px;
+	color: #98795c;
+}
+#homepage .overview .item a {
+	display: block;
+	text-align: center;
+	color: #f6b200;
+	font-weight: 700;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+#homepage .overview .owl-carousel .owl-item {
+	height: 290px;
+}
+#homepage .overview .owl-carousel .owl-item img {
+	width: auto;
+	margin: 0 auto;
+}
+/* #homepage .gamebase .item {
+	padding: 25px;
+	height: 100%;
+}
+#homepage .gamebase .item.chestOpen {
+	background: #fae1e0 url(../img/chest-open.png) no-repeat center right 25px;
+}
+#homepage .gamebase .item.chestClose {
+	background: #fdf1cc url(../img/chest-close.png) no-repeat center right 25px;
+}
+#homepage .gamebase .item .phase {
+	font-weight: 400;
+	margin-bottom: 10px;
+	min-width: 100px;
+}
+#homepage .gamebase .item .title {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+#homepage .gamebase .item .time {
+	font-size: 18px;
+	font-weight: 700;
+} */
+/* #homepage .gameForYou .thumb {
+	border-radius: 18px;
+}
+#homepage .gameForYou .item {
+	background: #f7f7f7;
+	border-radius: 18px;
+}
+#homepage .gameForYou .thumbWrap {
+	position: relative;
+}
+#homepage .gameForYou .thumbWrap .inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding: 25px;
+}
+#homepage .gameForYou .thumbWrap .title {
+	text-transform: uppercase;
+	color: #583a1e;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+#homepage .gameForYou .thumbWrap .title img {
+	position: relative;
+	top: -2px;
+}
+#homepage .gameForYou .thumbWrap .price {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+#homepage .gameForYou .thumbWrap .price img {
+	width: 40px;
+}
+#homepage .gameForYou .thumbWrap .time .badge {
+	font-size: 14px;
+	border-radius: 12px;
+	padding: 12px 20px;
+	background: #47131a;
+	color: #fffad9;
+}
+#homepage .gameForYou .bottom {
+	padding: 15px 20px;
+}
+#homepage .gameForYou .bottom .social a:not(:last-child) {
+	margin-right: 5px;
+}
+#homepage .gameForYou .bottom .social a {
+	opacity: 0.3;
+}
+#homepage .gameForYou .bottom .social a:hover {
+	opacity: 1;
+}
+#homepage .gameForYou .bottom .social img {
+	width: 28px;
+} */
+/* #homepage .community a {
+	display: inline-block;
+	margin-right: 15px;
+} */
+/*========================== RESPONSIVE ==========================*/
+@media (max-width: 1440px) {
+}
+@media (max-width: 1366px) {
+}
+@media (max-width: 1024px) {
+	#homepage .overview {
+		max-width: 725px;
+	}
+	#homepage .gameForYou .thumbWrap .title,
+	#homepage .gameForYou .thumbWrap .price {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 992px) {
+	#homepage .gamebase .row > div:not(:last-child),
+	#homepage .gameForYou .item {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 768px) {
+	header {
+		padding: 10px 0;
+	}
+	#homepage .overview {
+		max-width: 470px;
+	}
+}
+@media (max-width: 576px) {
+	body {
+		font-size: 13px;
+	}
+	h1,
+	.h1 {
+		font-size: 32px;
+	}
+	h2,
+	.h2 {
+		font-size: 26px;
+	}
+	h3,
+	.h3 {
+		font-size: 21px;
+	}
+	h4,
+	.h4 {
+		font-size: 18px;
+	}
+	h5,
+	.h5 {
+		font-size: 16px;
+	}
+	h6,
+	.h6 {
+		font-size: 14px;
+	}
+	header,
+	aside {
+		position: fixed;
+		width: 100%;
+		left: 0;
+		top: 0;
+		box-shadow: 1px 0px 0px #fff;
+	}
+	header {
+		border-bottom: none;
+		padding: 10px 12px;
+		z-index: 3;
+	}
+	header .connectWallet {
+		white-space: nowrap;
+		font-size: 12px;
+		margin-right: 5px;
+	}
+	header .logo {
+		width: auto;
+	}
+	header .logo img {
+		width: 100px;
+	}
+	header .logo span {
+		font-size: 12px;
+	}
+	header .language .dropdown-toggle img {
+		width: 30px;
+	}
+	aside {
+		width: 250px;
+		height: 100%;
+		left: -250px;
+		padding: 60px 10px 10px 10px;
+		overflow: auto;
+		z-index: 2;
+	}
+	section .sectionHeading {
+		font-size: 24px;
+	}
+	section .sectionSubHeading {
+		font-size: 14px;
+	}
+	#mainmenu li.parentMenu .subMenu {
+		margin: 0 -10px;
+	}
+	#mainContent {
+		padding: 60px 0 0;
+		border-left: none;
+	}
+	.listNft {
+		margin: -5px 0;
+	}
+	.listNft > .row {
+		margin: 0 -5px;
+	}
+	.listNft > .row > * {
+		padding: 0 5px;
+	}
+	.listNft .item {
+		margin: 5px 0;
+	}
+	.listNft .item .top {
+		padding: 35px 8px 8px;
+	}
+	.listNft .item .top .percent {
+		left: 8px;
+		top: 8px;
+		font-size: 12px;
+	}
+	.listNft .item .title {
+		font-size: 12px;
+	}
+	.listNft .item .bottom {
+		padding: 8px;
+	}
+	#homepage .gameForYou .thumbWrap .inner {
+		padding: 15px;
+	}
+	#homepage .gameForYou .thumbWrap .title {
+		font-size: 13px;
+	}
+	#homepage .gameForYou .thumbWrap .price {
+		font-size: 26px;
+	}
+	#homepage .gameForYou .thumbWrap .price img {
+		width: 35px;
+	}
+	#homepage .gameForYou .thumbWrap .time .badge {
+		padding: 10px 15px;
+	}
+	#homepage .gameForYou .bottom {
+		padding: 10px 15px;
+	}
+}

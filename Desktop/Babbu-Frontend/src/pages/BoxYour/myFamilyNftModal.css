@@ -1,0 +1,105 @@
+/* The Modal (background) */
+.modal-nft-list {
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content-nft-list {
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  width: 50%; /* Could be more or less, depending on screen size */
+  /* height: 50%; */
+}
+
+.my-nft-title {
+  font-family: Sen;
+  font-weight: 700;
+  color: #47131a;
+}
+
+/* The Close Button */
+.modal-nft-list .close-button {
+  background-color: #98795c;
+  color: white;
+  float: right;
+  font-size: 28px;
+}
+
+/* TABLE */
+.my-nft table {
+  width: 100%;
+  font-size: 15px;
+}
+  /* THead */
+.my-nft table thead tr {
+  height: 50px;
+}
+
+.my-nft table thead tr th {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 14px;
+  letter-spacing: -0.015em;
+  color: #98795C;
+}
+
+.my-nft thead .name {
+  width: 70%;
+}
+
+.my-nft thead .id {
+  text-align: center;
+  width: 10%;
+}
+
+.my-nft thead .hashRate {
+  text-align: right;
+  width: 20%;
+}
+/* THead */
+
+/* TBody */
+.my-nft tbody tr {
+  border-bottom: 1px solid #EBE8E2;
+  height: 3rem;
+}
+
+.my-nft tbody img {
+  height: 20px;
+}
+
+.my-nft tbody .name {
+  color: #2D1B0E;
+}
+
+.my-nft tbody .name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.my-nft tbody .id {
+  text-align: center;
+  color: #47131A;
+}
+  
+.my-nft tbody .hashRate {
+  text-align: right;
+  font-weight: bold;
+  color: #47131A;
+}
+  /* TBody */
+
+/* TABLE */

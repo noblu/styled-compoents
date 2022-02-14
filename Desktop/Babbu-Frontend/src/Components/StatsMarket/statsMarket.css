@@ -1,0 +1,60 @@
+#marketAuctionPage .stats {
+	padding: 20px;
+	text-align: center;
+}
+#marketAuctionPage .stats .item:not(:last-child) {
+    border-right: 2px solid #F6B200;
+}
+#marketAuctionPage .stats .number {
+	font-size: 28px;
+	font-weight: 700;
+}
+#marketAuctionPage .navWrap {
+	text-align: center;
+}
+#marketAuctionPage .navWrap .nav-link {
+	width: 200px;
+	font-size: 16px;
+	font-weight: 700;
+}
+#marketAuctionPage .nftFilter {
+	margin: 20px 0;
+}
+#marketAuctionPage .nftFilter .allNft {
+	margin-right: 10px;
+}
+#marketAuctionPage .nftFilter .dropdown-toggle {
+	background: #fff;
+	border: 1px solid #CAB6A4;
+	border-radius: 12px;
+	color: #47131A;
+	font-weight: 400;
+    padding: 8px 20px;
+}
+#marketAuctionPage .nftFilter .search {
+	position: relative;
+	background: #EBE8E2;
+	border-radius: 12px;
+	padding: 5px 5px 5px 15px;
+	margin-right: 10px;
+}
+#marketAuctionPage .nftFilter .search input {
+	background: none;
+	border: none;
+}
+#marketAuctionPage .nftFilter .search input:focus {
+	border: none;
+	box-shadow: none;
+	outline: none;
+}
+#marketAuctionPage .nftFilter .search .icon {
+    background: #FFE000;
+    padding: 6px 14px;
+    border-radius: 10px;
+    border: none;
+}
+#marketAuctionPage .nftFilter .btnHistory {
+	background: #EBE8E2;
+	color: #2D1B0E;
+	padding: 9px 20px;
+}
