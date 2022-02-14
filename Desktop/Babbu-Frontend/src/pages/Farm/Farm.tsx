@@ -40,14 +40,20 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 17px;
-@media screen and (max-width:768px) {
+
+@media screen and (max-width:768px){
 font-size: 13px;
 }
+
 `;
-//*************** */
+
+
+
 const Strong = styled.strong`
 color:#0FD545;
 `;
+
+
 
 function Farm() {
     return (

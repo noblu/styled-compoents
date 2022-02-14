@@ -6,6 +6,9 @@ import { Image } from '../Images/Image';
 import { ethers } from 'ethers';
 import Web3Modal from "web3modal";
 
+
+
+
 const AppWrapper = styled.div`
 position: fixed;
 top: 0;
